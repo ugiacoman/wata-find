@@ -1,0 +1,6 @@
+framework module Pods_WataFindTests {
+  umbrella header "Pods-WataFindTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

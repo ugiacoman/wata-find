@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		554E82001C739910008F35D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554E81FF1C739910008F35D9 /* AppDelegate.swift */; };
+		554E82021C739910008F35D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554E82011C739910008F35D9 /* ViewController.swift */; };
+		554E82051C739910008F35D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554E82031C739910008F35D9 /* Main.storyboard */; };
+		554E82081C739910008F35D9 /* WataFind.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 554E82061C739910008F35D9 /* WataFind.xcdatamodeld */; };
+		554E820A1C739910008F35D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554E82091C739910008F35D9 /* Assets.xcassets */; };
+		554E820D1C739910008F35D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554E820B1C739910008F35D9 /* LaunchScreen.storyboard */; };
+		554E82181C739910008F35D9 /* WataFindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554E82171C739910008F35D9 /* WataFindTests.swift */; };
+		554E82231C739910008F35D9 /* WataFindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554E82221C739910008F35D9 /* WataFindUITests.swift */; };
+		87E071820BC8878D4D8BAB64 /* Pods_WataFindTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A733FBAC77B0169A26B8934E /* Pods_WataFindTests.framework */; };
+		8D9A74842F1467DCA7A2EB0E /* Pods_WataFindUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B908A694527BE61460FA10 /* Pods_WataFindUITests.framework */; };
+		A5BBD4927CFA1FB4520A0AB8 /* Pods_WataFind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D81737E2815104335BF9CB /* Pods_WataFind.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		554E82141C739910008F35D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 554E81F41C739910008F35D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 554E81FB1C739910008F35D9;
+			remoteInfo = WataFind;
+		};
+		554E821F1C739910008F35D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 554E81F41C739910008F35D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 554E81FB1C739910008F35D9;
+			remoteInfo = WataFind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1598F9004D9DF422E8CF8157 /* Pods-WataFindTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WataFindTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WataFindTests/Pods-WataFindTests.debug.xcconfig"; sourceTree = "<group>"; };
+		275D7B638DC12BBDB8EEEE5E /* Pods-WataFind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WataFind.release.xcconfig"; path = "Pods/Target Support Files/Pods-WataFind/Pods-WataFind.release.xcconfig"; sourceTree = "<group>"; };
+		553726731C73C25400A81595 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		554E81FC1C739910008F35D9 /* WataFind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WataFind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		554E81FF1C739910008F35D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		554E82011C739910008F35D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		554E82041C739910008F35D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		554E82071C739910008F35D9 /* WataFind.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WataFind.xcdatamodel; sourceTree = "<group>"; };
+		554E82091C739910008F35D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		554E820C1C739910008F35D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		554E820E1C739910008F35D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554E82131C739910008F35D9 /* WataFindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WataFindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		554E82171C739910008F35D9 /* WataFindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WataFindTests.swift; sourceTree = "<group>"; };
+		554E82191C739910008F35D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554E821E1C739910008F35D9 /* WataFindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WataFindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		554E82221C739910008F35D9 /* WataFindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WataFindUITests.swift; sourceTree = "<group>"; };
+		554E82241C739910008F35D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66D81737E2815104335BF9CB /* Pods_WataFind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WataFind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B908A694527BE61460FA10 /* Pods_WataFindUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WataFindUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E96876304BF966D1F9264EE /* Pods-WataFindUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WataFindUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WataFindUITests/Pods-WataFindUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A733FBAC77B0169A26B8934E /* Pods_WataFindTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WataFindTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C14D77EE52AAC4E7B20717AB /* Pods-WataFind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WataFind.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WataFind/Pods-WataFind.debug.xcconfig"; sourceTree = "<group>"; };
+		CDF8520C4F94526289EE2C40 /* Pods-WataFindUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WataFindUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WataFindUITests/Pods-WataFindUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E0E6C1AF8C9AF35E5C6D7E40 /* Pods-WataFindTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WataFindTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WataFindTests/Pods-WataFindTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		554E81F91C739910008F35D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BBD4927CFA1FB4520A0AB8 /* Pods_WataFind.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554E82101C739910008F35D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E071820BC8878D4D8BAB64 /* Pods_WataFindTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554E821B1C739910008F35D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9A74842F1467DCA7A2EB0E /* Pods_WataFindUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11949446C4CF316D7593240A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66D81737E2815104335BF9CB /* Pods_WataFind.framework */,
+				A733FBAC77B0169A26B8934E /* Pods_WataFindTests.framework */,
+				67B908A694527BE61460FA10 /* Pods_WataFindUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		554E81F31C739910008F35D9 = {
+			isa = PBXGroup;
+			children = (
+				554E81FE1C739910008F35D9 /* WataFind */,
+				554E82161C739910008F35D9 /* WataFindTests */,
+				554E82211C739910008F35D9 /* WataFindUITests */,
+				554E81FD1C739910008F35D9 /* Products */,
+				AD889D3EFFE6F218A33AC4F7 /* Pods */,
+				11949446C4CF316D7593240A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		554E81FD1C739910008F35D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				554E81FC1C739910008F35D9 /* WataFind.app */,
+				554E82131C739910008F35D9 /* WataFindTests.xctest */,
+				554E821E1C739910008F35D9 /* WataFindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		554E81FE1C739910008F35D9 /* WataFind */ = {
+			isa = PBXGroup;
+			children = (
+				554E81FF1C739910008F35D9 /* AppDelegate.swift */,
+				554E82011C739910008F35D9 /* ViewController.swift */,
+				554E82031C739910008F35D9 /* Main.storyboard */,
+				554E82091C739910008F35D9 /* Assets.xcassets */,
+				554E820B1C739910008F35D9 /* LaunchScreen.storyboard */,
+				554E820E1C739910008F35D9 /* Info.plist */,
+				554E82061C739910008F35D9 /* WataFind.xcdatamodeld */,
+				553726731C73C25400A81595 /* MyPlayground.playground */,
+			);
+			path = WataFind;
+			sourceTree = "<group>";
+		};
+		554E82161C739910008F35D9 /* WataFindTests */ = {
+			isa = PBXGroup;
+			children = (
+				554E82171C739910008F35D9 /* WataFindTests.swift */,
+				554E82191C739910008F35D9 /* Info.plist */,
+			);
+			path = WataFindTests;
+			sourceTree = "<group>";
+		};
+		554E82211C739910008F35D9 /* WataFindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				554E82221C739910008F35D9 /* WataFindUITests.swift */,
+				554E82241C739910008F35D9 /* Info.plist */,
+			);
+			path = WataFindUITests;
+			sourceTree = "<group>";
+		};
+		AD889D3EFFE6F218A33AC4F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C14D77EE52AAC4E7B20717AB /* Pods-WataFind.debug.xcconfig */,
+				275D7B638DC12BBDB8EEEE5E /* Pods-WataFind.release.xcconfig */,
+				1598F9004D9DF422E8CF8157 /* Pods-WataFindTests.debug.xcconfig */,
+				E0E6C1AF8C9AF35E5C6D7E40 /* Pods-WataFindTests.release.xcconfig */,
+				7E96876304BF966D1F9264EE /* Pods-WataFindUITests.debug.xcconfig */,
+				CDF8520C4F94526289EE2C40 /* Pods-WataFindUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		554E81FB1C739910008F35D9 /* WataFind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554E82271C739910008F35D9 /* Build configuration list for PBXNativeTarget "WataFind" */;
+			buildPhases = (
+				654069548422DFB33C5FF077 /* Check Pods Manifest.lock */,
+				554E81F81C739910008F35D9 /* Sources */,
+				554E81F91C739910008F35D9 /* Frameworks */,
+				554E81FA1C739910008F35D9 /* Resources */,
+				4037C1328EFC7066DAA151FB /* Embed Pods Frameworks */,
+				41C68BB897CA79E4DB37B56F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WataFind;
+			productName = WataFind;
+			productReference = 554E81FC1C739910008F35D9 /* WataFind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		554E82121C739910008F35D9 /* WataFindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554E822A1C739910008F35D9 /* Build configuration list for PBXNativeTarget "WataFindTests" */;
+			buildPhases = (
+				9731D1683CB819DAE61CF00F /* Check Pods Manifest.lock */,
+				554E820F1C739910008F35D9 /* Sources */,
+				554E82101C739910008F35D9 /* Frameworks */,
+				554E82111C739910008F35D9 /* Resources */,
+				C110565CA8DE1CF3490771E2 /* Embed Pods Frameworks */,
+				A42E856779DC5BA59965FB36 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				554E82151C739910008F35D9 /* PBXTargetDependency */,
+			);
+			name = WataFindTests;
+			productName = WataFindTests;
+			productReference = 554E82131C739910008F35D9 /* WataFindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		554E821D1C739910008F35D9 /* WataFindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554E822D1C739910008F35D9 /* Build configuration list for PBXNativeTarget "WataFindUITests" */;
+			buildPhases = (
+				B456FA3CBE8A1BB917055D51 /* Check Pods Manifest.lock */,
+				554E821A1C739910008F35D9 /* Sources */,
+				554E821B1C739910008F35D9 /* Frameworks */,
+				554E821C1C739910008F35D9 /* Resources */,
+				7FF8B71C855C39484718EEA5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				554E82201C739910008F35D9 /* PBXTargetDependency */,
+			);
+			name = WataFindUITests;
+			productName = WataFindUITests;
+			productReference = 554E821E1C739910008F35D9 /* WataFindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		554E81F41C739910008F35D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ulises Giacoman";
+				TargetAttributes = {
+					554E81FB1C739910008F35D9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					554E82121C739910008F35D9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 554E81FB1C739910008F35D9;
+					};
+					554E821D1C739910008F35D9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 554E81FB1C739910008F35D9;
+					};
+				};
+			};
+			buildConfigurationList = 554E81F71C739910008F35D9 /* Build configuration list for PBXProject "WataFind" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 554E81F31C739910008F35D9;
+			productRefGroup = 554E81FD1C739910008F35D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				554E81FB1C739910008F35D9 /* WataFind */,
+				554E82121C739910008F35D9 /* WataFindTests */,
+				554E821D1C739910008F35D9 /* WataFindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		554E81FA1C739910008F35D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554E820D1C739910008F35D9 /* LaunchScreen.storyboard in Resources */,
+				554E820A1C739910008F35D9 /* Assets.xcassets in Resources */,
+				554E82051C739910008F35D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554E82111C739910008F35D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554E821C1C739910008F35D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4037C1328EFC7066DAA151FB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WataFind/Pods-WataFind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41C68BB897CA79E4DB37B56F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WataFind/Pods-WataFind-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		654069548422DFB33C5FF077 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7FF8B71C855C39484718EEA5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WataFindUITests/Pods-WataFindUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9731D1683CB819DAE61CF00F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A42E856779DC5BA59965FB36 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WataFindTests/Pods-WataFindTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B456FA3CBE8A1BB917055D51 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C110565CA8DE1CF3490771E2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WataFindTests/Pods-WataFindTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		554E81F81C739910008F35D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554E82081C739910008F35D9 /* WataFind.xcdatamodeld in Sources */,
+				554E82021C739910008F35D9 /* ViewController.swift in Sources */,
+				554E82001C739910008F35D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554E820F1C739910008F35D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554E82181C739910008F35D9 /* WataFindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554E821A1C739910008F35D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554E82231C739910008F35D9 /* WataFindUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		554E82151C739910008F35D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 554E81FB1C739910008F35D9 /* WataFind */;
+			targetProxy = 554E82141C739910008F35D9 /* PBXContainerItemProxy */;
+		};
+		554E82201C739910008F35D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 554E81FB1C739910008F35D9 /* WataFind */;
+			targetProxy = 554E821F1C739910008F35D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		554E82031C739910008F35D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554E82041C739910008F35D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		554E820B1C739910008F35D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554E820C1C739910008F35D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		554E82251C739910008F35D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		554E82261C739910008F35D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		554E82281C739910008F35D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C14D77EE52AAC4E7B20717AB /* Pods-WataFind.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WataFind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ugiacoman.WataFind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		554E82291C739910008F35D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 275D7B638DC12BBDB8EEEE5E /* Pods-WataFind.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WataFind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ugiacoman.WataFind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		554E822B1C739910008F35D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1598F9004D9DF422E8CF8157 /* Pods-WataFindTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WataFindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ugiacoman.WataFindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WataFind.app/WataFind";
+			};
+			name = Debug;
+		};
+		554E822C1C739910008F35D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0E6C1AF8C9AF35E5C6D7E40 /* Pods-WataFindTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WataFindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ugiacoman.WataFindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WataFind.app/WataFind";
+			};
+			name = Release;
+		};
+		554E822E1C739910008F35D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E96876304BF966D1F9264EE /* Pods-WataFindUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = WataFindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ugiacoman.WataFindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WataFind;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		554E822F1C739910008F35D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF8520C4F94526289EE2C40 /* Pods-WataFindUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = WataFindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ugiacoman.WataFindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WataFind;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		554E81F71C739910008F35D9 /* Build configuration list for PBXProject "WataFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554E82251C739910008F35D9 /* Debug */,
+				554E82261C739910008F35D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		554E82271C739910008F35D9 /* Build configuration list for PBXNativeTarget "WataFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554E82281C739910008F35D9 /* Debug */,
+				554E82291C739910008F35D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		554E822A1C739910008F35D9 /* Build configuration list for PBXNativeTarget "WataFindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554E822B1C739910008F35D9 /* Debug */,
+				554E822C1C739910008F35D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		554E822D1C739910008F35D9 /* Build configuration list for PBXNativeTarget "WataFindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				554E822E1C739910008F35D9 /* Debug */,
+				554E822F1C739910008F35D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		554E82061C739910008F35D9 /* WataFind.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				554E82071C739910008F35D9 /* WataFind.xcdatamodel */,
+			);
+			currentVersion = 554E82071C739910008F35D9 /* WataFind.xcdatamodel */;
+			path = WataFind.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 554E81F41C739910008F35D9 /* Project object */;
+}
